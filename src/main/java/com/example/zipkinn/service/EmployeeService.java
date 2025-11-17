@@ -16,8 +16,7 @@ public class EmployeeService {
     private EmployeeRepo repository;
 
     public List<Employee> getAllEmployees() {
-        log.info("Fetching all employees from the database");
-        log.warn("This is a warning log example");
+        System.out.println("Fetching all employees from the database");
         return repository.findAll();
     }
 
