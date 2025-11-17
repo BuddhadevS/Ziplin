@@ -18,6 +18,18 @@ public class EmployeeService {
     public List<Employee> getAllEmployees() {
         log.info("Fetching all employees from the database from manoj branch");
         log.warn("This is a warning log example");
+        log.warn("Adding merge conflict");
+        log.warn("This is a warning log example");
+        log.warn("Adding merge conflict");
+        return repository.findAll();
+    }
+
+    public List<Employee> gettingallemployees() {
+        log.info("Fetching all employees from the database from manoj branch");
+        log.warn("This is a warning log example");
+        log.warn("Adding merge conflict");
+        log.warn("This is a warning log example");
+        log.warn("Adding merge conflict");
         return repository.findAll();
     }
 
